@@ -37,13 +37,16 @@ body {
 }
 
 main {
+}
+
+.hero {
   width: 777px;
   background: var(--clr-neutral-white);
   padding: 2.5em;
   text-align: center;
 }
 
-.hero > * + * {
+.hero__content > * + * {
   margin-top: 2em;
 }
 
