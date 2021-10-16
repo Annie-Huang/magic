@@ -20,6 +20,14 @@ font-family: 'PT Sans', sans-serif;
 }
 
 /* ///////////////
+  Utility classes
+  ////////////// */
+
+.flow-content > * + * {
+  margin-top: 1rem;
+}
+
+/* ///////////////
   General styling
   ////////////// */
 
@@ -68,14 +76,18 @@ main {
   text-align: center; /* Kevin put this into .hero__content */
 }
 
-.hero__content > * + * {
+/*.hero__content > * + * {
   margin-top: 2em;
-}
+}*/
 
 h1 {
   font-weight: 400;
   font-size: 36px;
   line-height: 1;
+}
+
+.btn {
+  display: block;
 }
 
 button {
